@@ -30,7 +30,7 @@ namespace WcfWebApi.Controllers
                 var content = new StringContent(json, Encoding.UTF8, "application/json");
                 var result = string.Empty;
                 var service = "http://localhost/WcfRest/Service1.svc/";
-                HttpResponseMessage response = client.PostAsync(service + "SendMessage", content).Result;
+                HttpResponseMessage response = client.PostAsync(service + "queue", content).Result;
                 if (response.IsSuccessStatusCode)
                 {
                     result = JsonConvert.DeserializeObject<string>(response.Content.ReadAsStringAsync().Result);
