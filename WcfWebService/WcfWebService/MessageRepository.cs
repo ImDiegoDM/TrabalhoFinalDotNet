@@ -14,7 +14,7 @@ namespace WcfWebService
             {
                 client.BaseAddress = new Uri("http://localhost/WcfRest/Service1.svc/");
                 List<Msg> listaMsgs = null;
-                var response = client.GetAsync($"SendMessage").Result;
+                var response = client.GetAsync($"queue").Result;
 
                 if (response.IsSuccessStatusCode)
                 {
