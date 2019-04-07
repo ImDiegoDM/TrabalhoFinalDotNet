@@ -1,6 +1,4 @@
-# TrabalhoFinalDotNet
-
-## TRABALHO PRÁTICO DE .NET
+# TRABALHO PRÁTICO DE .NET
 
 ## Requisitos de tecnologia
 
