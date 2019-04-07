@@ -11,6 +11,12 @@ Vai ter outro WCF que vai ficar lendo a fila e gravando em algum BD (pode ser qu
 
 
 
-![alt text](https://github.com/weto/TrabalhoFinalDotNet/blob/master/trabalho_dotnet.png)
+![alt text](https://github.com/weto/TrabalhoFinalDotNet/blob/master/diagrama.png)
+
+## Alunos
+
+- Wellington Conceição https://github.com/weto
+- Diego Matias https://github.com/ImDiegoDM
+
 
 
